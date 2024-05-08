@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cursofabric",
+	"version": "${version}",
+	"name": "CursoFabric",
+	"description": "Este es un mod para aprender a programar fabric!",
+	"authors": [
+		"Pol"
+	],
+	"contact": {
+		"homepage": "https://polv.dev/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cursofabric/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.polv.cursofabric.CursoFabric"
+		],
+		"client": [
+			"dev.polv.cursofabric.CursoFabricClient"
+		],
+		"fabric-datagen": [
+			"dev.polv.cursofabric.CursoFabricDataGenerator"
+		]
+	},
+	"mixins": [
+		"cursofabric.mixins.json",
+		{
+			"config": "cursofabric.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
