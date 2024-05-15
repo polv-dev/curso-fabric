@@ -6,7 +6,15 @@ import dev.polv.cursofabric.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
+import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
+import net.minecraft.loot.LootPool;
+import net.minecraft.loot.condition.RandomChanceLootCondition;
+import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.function.SetCountLootFunction;
+import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
+import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +31,16 @@ public class CursoFabric implements ModInitializer {
 		ModItems.registerItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerBlocks();
+
+		LootTableEvents.MODIFY.register((key, tableBuilder, source) -> {
+			if (!key.getValue().equals(new Identifier("minecraft", "entities/creeper"))) return;
+
+			LootPool.Builder poolBuilder = LootPool.builder()
+					.rolls(ConstantLootNumberProvider.create(1))
+					.with(ItemEntry.builder(ModItems.URANIUM));
+
+			tableBuilder.pool(poolBuilder.build());
+		});
 
 		ServerLifecycleEvents.SERVER_STARTING.register(server -> SERVER = server);
 		ServerLifecycleEvents.SERVER_STOPPING.register(server -> SERVER = null);
