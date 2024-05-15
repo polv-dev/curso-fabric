@@ -1,6 +1,7 @@
 package dev.polv.cursofabric.items;
 
 import dev.polv.cursofabric.CursoFabric;
+import dev.polv.cursofabric.blocks.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.URANIUM))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.URANIUM);
+                        entries.add(ModBlocks.URANIUM_BLOCK.getRight());
                     })
                     .build()
     );

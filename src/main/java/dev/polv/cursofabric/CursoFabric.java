@@ -1,5 +1,6 @@
 package dev.polv.cursofabric;
 
+import dev.polv.cursofabric.blocks.ModBlocks;
 import dev.polv.cursofabric.items.ModItemGroups;
 import dev.polv.cursofabric.items.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -21,6 +22,7 @@ public class CursoFabric implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerBlocks();
 
 		ServerLifecycleEvents.SERVER_STARTING.register(server -> SERVER = server);
 		ServerLifecycleEvents.SERVER_STOPPING.register(server -> SERVER = null);
