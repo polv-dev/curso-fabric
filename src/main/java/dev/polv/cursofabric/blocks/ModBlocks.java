@@ -1,6 +1,7 @@
 package dev.polv.cursofabric.blocks;
 
 import dev.polv.cursofabric.CursoFabric;
+import dev.polv.cursofabric.blocks.custom.UraniumBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -13,7 +14,7 @@ import net.minecraft.util.Pair;
 
 public class ModBlocks {
 
-    public static final Pair<Block, Item> URANIUM_BLOCK = registerBlock("uranium_block", new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
+    public static final Pair<Block, Item> URANIUM_BLOCK = registerBlock("uranium_block", new UraniumBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
 
     private static Pair<Block, Item> registerBlock(String name, Block block) {
         return new Pair<>(
