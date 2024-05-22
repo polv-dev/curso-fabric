@@ -3,5 +3,11 @@
   "itemGroup.cursofabric.uranium_group": "Uranium Items",
   "block.cursofabric.uranium_block": "Block of Uranium",
   "death.attack.radiation": "%1$s died from radiation",
-  "effect.cursofabric.radiation": "Radiation"
+  "effect.cursofabric.radiation": "Radiation",
+
+  "item.cursofabric.uranium_sword": "Uranium Sword",
+  "item.cursofabric.uranium_pickaxe": "Uranium Pickaxe",
+  "item.cursofabric.uranium_axe": "Uranium Axe",
+  "item.cursofabric.uranium_shovel": "Uranium Shovel",
+  "item.cursofabric.uranium_hoe": "Uranium Hoe"
 }

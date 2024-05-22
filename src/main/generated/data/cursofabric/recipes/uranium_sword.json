@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "U": {
+      "item": "cursofabric:uranium"
+    }
+  },
+  "pattern": [
+    " U ",
+    " U ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "cursofabric:uranium_sword"
+  }
+}

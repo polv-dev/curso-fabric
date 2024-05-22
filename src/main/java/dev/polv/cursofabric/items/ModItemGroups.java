@@ -19,6 +19,12 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.URANIUM);
                         entries.add(ModBlocks.URANIUM_BLOCK.getRight());
+
+                        entries.add(ModItems.URANIUM_SWORD);
+                        entries.add(ModItems.URANIUM_PICKAXE);
+                        entries.add(ModItems.URANIUM_AXE);
+                        entries.add(ModItems.URANIUM_SHOVEL);
+                        entries.add(ModItems.URANIUM_HOE);
                     })
                     .build()
     );
