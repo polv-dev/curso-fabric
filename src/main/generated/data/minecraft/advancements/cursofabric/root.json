@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "got_uranium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cursofabric:uranium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "Has conseguido uranio",
+    "icon": {
+      "count": 1,
+      "id": "cursofabric:uranium"
+    },
+    "title": "Volviéndonos radiactivos"
+  },
+  "requirements": [
+    [
+      "got_uranium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
