@@ -1,5 +1,6 @@
 {
   "item.cursofabric.uranium": "Uranium",
   "itemGroup.cursofabric.uranium_group": "Uranium Items",
-  "block.cursofabric.uranium_block": "Block of Uranium"
+  "block.cursofabric.uranium_block": "Block of Uranium",
+  "death.attack.radiation": "%1$s died from radiation"
 }
