@@ -1,8 +1,8 @@
-// 1.20.6	2024-05-22T12:24:41.931113	CursoFabric/Model Definitions
+// 1.20.6	2024-05-29T11:42:06.3908457	CursoFabric/Model Definitions
 3451d804ce116ed146e2dd6f47ae1d6999e0cd5c assets\cursofabric\models\item\uranium_pickaxe.json
 2c787f02dbd8020535bc745e6ae3dc6fa5977c54 assets\cursofabric\models\item\uranium.json
-0d1f5c7a5e5f97b01db8f36e58286c81ec25b9f7 assets\cursofabric\models\block\uranium_block.json
 7e591e1817a98afbbe4479fee9953fe9307883d9 assets\cursofabric\blockstates\uranium_block.json
+0d1f5c7a5e5f97b01db8f36e58286c81ec25b9f7 assets\cursofabric\models\block\uranium_block.json
 ac91669911f8706fb60d66b082ee9a82bc36b300 assets\cursofabric\models\item\uranium_sword.json
 52ad6cf4aa1443d5807a866a8dd2fb1c189fe6e5 assets\cursofabric\models\item\uranium_shovel.json
 656f95089cd32cbdd1484e1689ef5e427e6e405e assets\cursofabric\models\item\uranium_block.json
