@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item URANIUM = registerItem("uranium", new UraniumItem(new Item.Settings()));
+    public static final Item URANIUM = registerItem("uranium", new UraniumItem(new Item.Settings().food(ModFoods.URANIUM)));
 
     public static final Item URANIUM_SWORD = registerItem("uranium_sword", new SwordItem(UraniumModMaterial.INSTANCE, new Item.Settings()));
     public static final Item URANIUM_PICKAXE = registerItem("uranium_pickaxe", new PickaxeItem(UraniumModMaterial.INSTANCE, new Item.Settings()));
