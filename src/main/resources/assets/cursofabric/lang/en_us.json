@@ -14,5 +14,7 @@
   "item.cursofabric.uranium_helmet": "Uranium Helmet",
   "item.cursofabric.uranium_chestplate": "Uranium Chestplate",
   "item.cursofabric.uranium_leggings": "Uranium Leggings",
-  "item.cursofabric.uranium_boots": "Uranium Boots"
+  "item.cursofabric.uranium_boots": "Uranium Boots",
+
+  "enchantment.cursofabric.radioactive": "Radioactive"
 }

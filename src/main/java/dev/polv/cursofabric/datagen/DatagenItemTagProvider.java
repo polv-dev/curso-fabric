@@ -33,6 +33,17 @@ public class DatagenItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.URANIUM_CHESTPLATE)
                 .add(ModItems.URANIUM_LEGGINGS)
                 .add(ModItems.URANIUM_BOOTS);
+
+        getOrCreateTagBuilder(ModTags.Items.RADIOACTIVE_ENCHANTABLE_ITEM)
+                .add(ModItems.URANIUM_SWORD)
+                .add(ModItems.URANIUM_PICKAXE)
+                .add(ModItems.URANIUM_AXE)
+                .add(ModItems.URANIUM_SHOVEL)
+                .add(ModItems.URANIUM_HOE)
+                .add(ModItems.URANIUM_HELMET)
+                .add(ModItems.URANIUM_CHESTPLATE)
+                .add(ModItems.URANIUM_LEGGINGS)
+                .add(ModItems.URANIUM_BOOTS);
     }
 
 }

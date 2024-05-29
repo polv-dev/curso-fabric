@@ -23,6 +23,8 @@ public class ModTags {
 
         public static final TagKey<Item> RADIOACTIVE_ITEM_TAG = createTag("radioactive");
 
+        public static final TagKey<Item> RADIOACTIVE_ENCHANTABLE_ITEM = createTag("radioactive_enchantable");
+
         private static TagKey<Item> createTag(String tagId) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(CursoFabric.MODID, tagId));
         }
