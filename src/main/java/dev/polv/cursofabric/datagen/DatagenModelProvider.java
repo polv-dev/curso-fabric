@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class DatagenModelProvider extends FabricModelProvider {
 
@@ -28,5 +29,10 @@ public class DatagenModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.URANIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.URANIUM_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.URANIUM_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.URANIUM_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.URANIUM_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.URANIUM_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.URANIUM_BOOTS);
     }
 }

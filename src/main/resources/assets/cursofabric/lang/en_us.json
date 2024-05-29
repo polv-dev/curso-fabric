@@ -9,5 +9,10 @@
   "item.cursofabric.uranium_pickaxe": "Uranium Pickaxe",
   "item.cursofabric.uranium_axe": "Uranium Axe",
   "item.cursofabric.uranium_shovel": "Uranium Shovel",
-  "item.cursofabric.uranium_hoe": "Uranium Hoe"
+  "item.cursofabric.uranium_hoe": "Uranium Hoe",
+
+  "item.cursofabric.uranium_helmet": "Uranium Helmet",
+  "item.cursofabric.uranium_chestplate": "Uranium Chestplate",
+  "item.cursofabric.uranium_leggings": "Uranium Leggings",
+  "item.cursofabric.uranium_boots": "Uranium Boots"
 }

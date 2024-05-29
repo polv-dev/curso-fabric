@@ -1,6 +1,7 @@
 package dev.polv.cursofabric;
 
 import dev.polv.cursofabric.blocks.ModBlocks;
+import dev.polv.cursofabric.items.ModArmorMaterials;
 import dev.polv.cursofabric.items.ModItemGroups;
 import dev.polv.cursofabric.items.ModItems;
 import dev.polv.cursofabric.statuseffects.ModPotions;
@@ -35,6 +36,7 @@ public class CursoFabric implements ModInitializer {
 		ModBlocks.registerBlocks();
 		ModStatusEffects.registerStatusEffects();
 		ModPotions.registerPotions();
+		ModArmorMaterials.registerArmorMaterials();
 
 		LootTableEvents.MODIFY.register((key, tableBuilder, source) -> {
 			if (!key.getValue().equals(new Identifier("minecraft", "entities/creeper"))) return;

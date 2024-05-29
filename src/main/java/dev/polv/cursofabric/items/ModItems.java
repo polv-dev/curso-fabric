@@ -18,6 +18,23 @@ public class ModItems {
     public static final Item URANIUM_SHOVEL = registerItem("uranium_shovel", new ShovelItem(UraniumModMaterial.INSTANCE, new Item.Settings()));
     public static final Item URANIUM_HOE = registerItem("uranium_hoe", new HoeItem(UraniumModMaterial.INSTANCE, new Item.Settings()));
 
+    public static final Item URANIUM_HELMET = registerItem(
+            "uranium_helmet",
+            new ArmorItem(ModArmorMaterials.URANIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings())
+    );
+    public static final Item URANIUM_CHESTPLATE = registerItem(
+            "uranium_chestplate",
+            new ArmorItem(ModArmorMaterials.URANIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings())
+    );
+    public static final Item URANIUM_LEGGINGS = registerItem(
+            "uranium_leggings",
+            new ArmorItem(ModArmorMaterials.URANIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings())
+    );
+    public static final Item URANIUM_BOOTS = registerItem(
+            "uranium_boots",
+            new ArmorItem(ModArmorMaterials.URANIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings())
+    );
+
     private static Item registerItem(String itemId, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CursoFabric.MODID, itemId), item);
     }

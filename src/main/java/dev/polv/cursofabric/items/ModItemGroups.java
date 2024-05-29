@@ -25,6 +25,11 @@ public class ModItemGroups {
                         entries.add(ModItems.URANIUM_AXE);
                         entries.add(ModItems.URANIUM_SHOVEL);
                         entries.add(ModItems.URANIUM_HOE);
+
+                        entries.add(ModItems.URANIUM_HELMET);
+                        entries.add(ModItems.URANIUM_CHESTPLATE);
+                        entries.add(ModItems.URANIUM_LEGGINGS);
+                        entries.add(ModItems.URANIUM_BOOTS);
                     })
                     .build()
     );
