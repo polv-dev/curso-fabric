@@ -31,13 +31,17 @@ public class ModFluids {
     private static RegisteredFluid registeredFluid(String fluidId, Fluid staticFluid, Fluid flowingFluid) {
         Fluid registeredStaticFluid = Registry.register(Registries.FLUID, new Identifier(CursoFabric.MODID, "static_" + fluidId), staticFluid);
         Fluid registeredFlowingFluid = Registry.register(Registries.FLUID, new Identifier(CursoFabric.MODID, "flowing_" + fluidId), flowingFluid);
-        BucketItem bucketItem = Registry.register(Registries.ITEM, new Identifier(CursoFabric.MODID, fluidId + "_bucket"), new BucketItem(registeredFlowingFluid, new Item.Settings().maxCount(1)));
+        BucketItem bucketItem = Registry.register(Registries.ITEM, new Identifier(CursoFabric.MODID, fluidId + "_bucket"), new BucketItem(registeredStaticFluid, new Item.Settings().maxCount(1)));
 
         return new RegisteredFluid(registeredStaticFluid, registeredFlowingFluid, bucketItem);
     }
 
     private static FluidBlock registeredFluidBlock(String fluidId, Fluid staticFluid) {
-        FluidBlock fluidBlock = Registry.register(Registries.BLOCK, new Identifier(CursoFabric.MODID, fluidId + "_liquid"), new FluidBlock((FlowableFluid) staticFluid, FabricBlockSettings.copy(Blocks.WATER)));
+        FluidBlock fluidBlock = Registry.register(
+                Registries.BLOCK,
+                new Identifier(CursoFabric.MODID, fluidId + "_liquid"),
+                new FluidBlock((FlowableFluid) staticFluid, FabricBlockSettings.copy(Blocks.WATER))
+        );
 
         return fluidBlock;
     }
