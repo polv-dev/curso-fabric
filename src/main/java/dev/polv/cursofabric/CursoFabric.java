@@ -2,6 +2,7 @@ package dev.polv.cursofabric;
 
 import dev.polv.cursofabric.blocks.ModBlocks;
 import dev.polv.cursofabric.enchantments.ModEnchantments;
+import dev.polv.cursofabric.fluid.ModFluids;
 import dev.polv.cursofabric.items.ModArmorMaterials;
 import dev.polv.cursofabric.items.ModFuels;
 import dev.polv.cursofabric.items.ModItemGroups;
@@ -41,6 +42,7 @@ public class CursoFabric implements ModInitializer {
 		ModArmorMaterials.registerArmorMaterials();
 		ModEnchantments.registerEnchantments();
 		ModFuels.registerFuels();
+		ModFluids.registerFluids();
 
 		LootTableEvents.MODIFY.register((key, tableBuilder, source) -> {
 			if (!key.getValue().equals(new Identifier("minecraft", "entities/creeper"))) return;

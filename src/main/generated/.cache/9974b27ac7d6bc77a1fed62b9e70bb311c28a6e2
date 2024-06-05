@@ -1,4 +1,4 @@
-// 1.20.6	2024-06-05T11:35:50.8105997	CursoFabric/Model Definitions
+// 1.20.6	2024-06-05T12:09:20.2887824	CursoFabric/Model Definitions
 1e78eed8230c9a9e910d798441b9159bd8171964 assets\cursofabric\models\item\uranium_boots_lapis_trim.json
 7b8fe22c8c51d75ba419bff948921d395e260bb9 assets\cursofabric\models\block\uranium_button_inventory.json
 feffe514a3b3fcde76459917ca3a030684a6943a assets\cursofabric\models\item\uranium_helmet_gold_trim.json
@@ -69,8 +69,8 @@ e5ae9080b2df78a3ee4589f6f63323a73bac924e assets\cursofabric\models\item\uranium_
 6d8cad0cdd760de46b35dab9eb36b395d5f6da15 assets\cursofabric\models\block\uranium_button.json
 84ebeb9c33d066c0c2f83085b4e7aeb9bd494bff assets\cursofabric\models\item\uranium_axe.json
 f95cd4aa4c584bd94ca0c38f4cc9db84b9459092 assets\cursofabric\models\block\uranium_trapdoor_bottom.json
-897292f8f05860e0058719e68f96cc4e29c26e7b assets\cursofabric\models\item\uranium_chestplate_iron_trim.json
 cde8367692a86865b2631ec6f2f760d1bdb18385 assets\cursofabric\models\block\uranium_fence_side.json
+897292f8f05860e0058719e68f96cc4e29c26e7b assets\cursofabric\models\item\uranium_chestplate_iron_trim.json
 c0ae6e5043e00fc394253b6f9ace73c60b14e501 assets\cursofabric\models\item\uranium_chestplate_emerald_trim.json
 6a77e10912d5bab90af29755ee6329e7110b67e1 assets\cursofabric\models\item\uranium_button.json
 0d93977c44229d4c97919eec8d84fcbdc209a2b3 assets\cursofabric\models\item\uranium_leggings.json
