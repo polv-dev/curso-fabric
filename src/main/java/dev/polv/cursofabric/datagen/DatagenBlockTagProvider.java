@@ -22,6 +22,13 @@ public class DatagenBlockTagProvider extends FabricTagProvider.BlockTagProvider 
 
         getOrCreateTagBuilder(ModTags.Blocks.RADIOACTIVE_BLOCK_TAG)
                 .add(ModBlocks.URANIUM_BLOCK.getLeft());
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.URANIUM_FENCE.getLeft());
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.URANIUM_FENCE_GATE.getLeft());
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.URANIUM_WALL.getLeft());
     }
 
 }

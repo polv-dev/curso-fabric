@@ -17,7 +17,17 @@ public class DatagenModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK.getLeft());
+        BlockStateModelGenerator.BlockTexturePool uraniumTexturePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.URANIUM_BLOCK.getLeft());
+        uraniumTexturePool.stairs(ModBlocks.URANIUM_STAIRS.getLeft());
+        uraniumTexturePool.slab(ModBlocks.URANIUM_SLAB.getLeft());
+        uraniumTexturePool.button(ModBlocks.URANIUM_BUTTON.getLeft());
+        uraniumTexturePool.pressurePlate(ModBlocks.URANIUM_PRESSURE_PLATE.getLeft());
+        uraniumTexturePool.fence(ModBlocks.URANIUM_FENCE.getLeft());
+        uraniumTexturePool.fenceGate(ModBlocks.URANIUM_FENCE_GATE.getLeft());
+        uraniumTexturePool.wall(ModBlocks.URANIUM_WALL.getLeft());
+
+        blockStateModelGenerator.registerDoor(ModBlocks.URANIUM_DOOR.getLeft());
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.URANIUM_TRAPDOOR.getLeft());
     }
 
     @Override

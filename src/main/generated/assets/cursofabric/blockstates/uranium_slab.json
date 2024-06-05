@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cursofabric:block/uranium_slab"
+    },
+    "type=double": {
+      "model": "cursofabric:block/uranium_block"
+    },
+    "type=top": {
+      "model": "cursofabric:block/uranium_slab_top"
+    }
+  }
+}

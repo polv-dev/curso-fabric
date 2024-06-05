@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "cursofabric:block/uranium_block",
+    "side": "cursofabric:block/uranium_block",
+    "top": "cursofabric:block/uranium_block"
+  }
+}

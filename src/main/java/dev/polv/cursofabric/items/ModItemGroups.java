@@ -30,6 +30,16 @@ public class ModItemGroups {
                         entries.add(ModItems.URANIUM_CHESTPLATE);
                         entries.add(ModItems.URANIUM_LEGGINGS);
                         entries.add(ModItems.URANIUM_BOOTS);
+
+                        entries.add(ModBlocks.URANIUM_STAIRS.getRight());
+                        entries.add(ModBlocks.URANIUM_SLAB.getRight());
+                        entries.add(ModBlocks.URANIUM_BUTTON.getRight());
+                        entries.add(ModBlocks.URANIUM_PRESSURE_PLATE.getRight());
+                        entries.add(ModBlocks.URANIUM_FENCE.getRight());
+                        entries.add(ModBlocks.URANIUM_FENCE_GATE.getRight());
+                        entries.add(ModBlocks.URANIUM_WALL.getRight());
+                        entries.add(ModBlocks.URANIUM_DOOR.getRight());
+                        entries.add(ModBlocks.URANIUM_TRAPDOOR.getRight());
                     })
                     .build()
     );

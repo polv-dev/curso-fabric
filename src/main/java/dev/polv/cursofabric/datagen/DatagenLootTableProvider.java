@@ -17,6 +17,17 @@ public class DatagenLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.URANIUM_BLOCK.getLeft(), drops(ModItems.URANIUM));
+
+        addDrop(ModBlocks.URANIUM_STAIRS.getLeft());
+        addDrop(ModBlocks.URANIUM_BUTTON.getLeft());
+        addDrop(ModBlocks.URANIUM_PRESSURE_PLATE.getLeft());
+        addDrop(ModBlocks.URANIUM_FENCE.getLeft());
+        addDrop(ModBlocks.URANIUM_FENCE_GATE.getLeft());
+        addDrop(ModBlocks.URANIUM_WALL.getLeft());
+        addDrop(ModBlocks.URANIUM_TRAPDOOR.getLeft());
+
+        addDrop(ModBlocks.URANIUM_DOOR.getLeft(), doorDrops(ModBlocks.URANIUM_DOOR.getLeft()));
+        addDrop(ModBlocks.URANIUM_SLAB.getLeft(), slabDrops(ModBlocks.URANIUM_SLAB.getLeft()));
     }
 
 }
