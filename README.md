@@ -25,8 +25,6 @@ Bienvenido al curso para aprender a crear mods de Minecraft. Aquí está el cód
 - [23 Stairs, Slabs, etc](https://github.com/polv-dev/curso-fabric/tree/23-Stairs,-Slabs,-etc)
 - [24 Fluids](https://github.com/polv-dev/curso-fabric/tree/24-Fluids)
 
-Let me know if you need any more adjustments!
-
 ## Curso completo
 
 [![Miniatura Curso Fabric](https://i.ytimg.com/vi/k1utIIozBsk/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLhaUVX9fqdCYKSEHAP4nIr3-tyXOiirg7)
