@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3VTGE4)
+
 # Curso Fabric
 
 Bienvenido al curso para aprender a crear mods de Minecraft. Aquí está el código fuente de todos los episodios. Simplemente buscalo en las branches:
