@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_left",
-  "textures": {
-    "bottom": "cursofabric:block/uranium_door_bottom",
-    "top": "cursofabric:block/uranium_door_top"
-  }
-}
