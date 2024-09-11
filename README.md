@@ -29,4 +29,4 @@ Let me know if you need any more adjustments!
 
 ## Curso completo
 
-[![Miniatura Curso Fabric](https://i.ytimg.com/vi/k1utIIozBsk/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLhaUVX9fqdCYKSEHAP4nIr3-tyXOiirg7)
+[![Miniatura Curso Fabric](https://i.ytimg.com/vi/5Sh5Uk8lxK4/maxresdefault.jpg)](https://www.youtube.com/watch?v=5Sh5Uk8lxK4&list=PLhaUVX9fqdCYKSEHAP4nIr3-tyXOiirg7&index=1)
