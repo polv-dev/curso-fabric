@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3VTGE4)
+
 # Curso Fabric
 
 Bienvenido al curso para aprender a crear mods de Minecraft. Aquí está el código fuente de todos los episodios. Simplemente buscalo en las branches:
@@ -24,8 +26,6 @@ Bienvenido al curso para aprender a crear mods de Minecraft. Aquí está el cód
 - [22 Food](https://github.com/polv-dev/curso-fabric/tree/22-Food)
 - [23 Stairs, Slabs, etc](https://github.com/polv-dev/curso-fabric/tree/23-Stairs,-Slabs,-etc)
 - [24 Fluids](https://github.com/polv-dev/curso-fabric/tree/24-Fluids)
-
-Let me know if you need any more adjustments!
 
 ## Curso completo
 
